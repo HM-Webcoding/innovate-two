@@ -1,0 +1,568 @@
+/* =========== common css star =========== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../images/gradient-bg.png) center no-repeat;
+    background-size: cover;
+}
+ol, ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.service__card, .tabbar__items, .price__card, .blog__social i, .blog__arrow i, .nav-item, .footer__menu ul li, .footer__link a{
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.common__button a{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px 48px;
+    border-radius: 18px;
+    background: var(--primary-color);
+    line-height: 200%;
+}
+:root{
+    --primary-color: #8454F5;
+    --pragraph-color: #29313D;
+    --border-color: #FFC556;
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Nunito', sans-serif;
+}
+/* navbar part css */
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+.bg-light {
+	background-color: transparent !important;
+}
+.nav-item{
+    font-size: 18px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: var(--pragraph-color);
+    padding: 0 24px;
+    line-height: 25px;
+}
+.nav-item:hover .nav-link {
+    color: var(--primary-color);
+}
+/* navbar css end */
+/* banner css start */
+#banner_part{
+    padding: 240px 0 70px 0;
+}
+.banner__heading{
+    font-size: 64px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--pragraph-color);
+    text-transform: capitalize;
+}
+.banner__pragraph{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    line-height: 200%;
+    width: 516px;
+    color: var(--pragraph-color);
+    padding-left: 20px;
+    margin: 44px 0 52px 0;
+    border-left: 6px solid var(--border-color);
+}
+.banner__input{
+    padding: 37px 28px;
+    width: 630px;
+    background: rgba(132, 84, 245, 0.05);
+    border-radius: 24px;
+    outline: none;
+    border: none;
+}
+.banner__input::placeholder{
+    font-size: 18px;
+    color: var(--pragraph-color);
+    line-height: 200%;
+    font-family: var(--secondary-font);
+}
+.banner__input__area {
+    position: relative;
+}
+.banner__input__btn {
+	position: absolute;
+	top: 30px;
+	right: 130px;
+}
+.banner_img img {
+	margin-top: -90px;
+}
+/* banner css end */
+/* logo css star */
+#logo_part{
+    padding: 80px 0;
+}
+/* logo css end */
+/* service css start */
+#service{
+    padding: 120px 0;
+}
+.service__heading {
+	padding-bottom: 50px;
+}
+.service__title {
+	font-size: 56px;
+	font-weight: 700;
+	font-family: var(--primary-font);
+	text-transform: capitalize;
+	line-height: 140%;
+	color: var(--pragraph-color);
+}
+.service__pragraph{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    line-height: 200%;
+    color: var(--pragraph-color);
+    padding-left: 20px;
+    border-left: 6px solid var(--border-color);
+    width: 100%;
+}
+.service__card{
+    padding: 24px 34px 48px 18px;
+    background: #FFFFFF;
+    border: 1px solid rgba(132, 84, 245, 0.4);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.service__card:hover{
+    background: #8454F5;
+    cursor: pointer;
+}
+.service__card:hover .service__card__title h3{
+    color: #FCFCFE;
+}
+.service__card:hover .service__card__text{
+    color: rgba(252, 252, 254, 0.7);
+}
+.service__card:hover .service__card__link{
+    color: #FCFCFE;
+}
+.service__card:hover .service__card__title i{
+    background: rgba(252, 252, 254, 0.15);
+    color: #FCFCFE;
+}
+.service__card__title h3{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--pragraph-color);
+}
+.service__card__title i{
+    border-radius: 14px;
+    padding: 20px 19px;
+    font-size: 30px;
+    margin-right: 14px;
+}
+/* service icon color start */
+.service__icon__one{
+    color: #FEC35F;
+    background: rgba(254, 195, 95, 0.15);
+}
+.service__icon__two{
+    color: #8454F5;
+    background: rgba(132, 84, 245, 0.15);
+}.service__icon__three{
+    color: #74BA52;
+    background: rgba(117, 186, 82, 0.15);
+}
+.service__icon__four{
+    color: #6078FF;
+    background: rgba(96, 120, 255, 0.15);
+}
+.service__icon__five{
+    color: #F27860;
+    background: rgba(242, 120, 96, 0.15);
+}
+.service__icon__six{
+    color: #0D87E7;
+    background: rgba(13, 137, 231, 0.15);
+}
+/* service icon color end */
+.service__card__text{
+   font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: var(--pragraph-color);
+    opacity: 0.7;
+    padding: 16px 0 24px 0;
+}
+.service__card__link{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--pragraph-color);
+}
+/* service css end */
+/* goal part css start */
+#goal {
+    padding: 83px 0 48px 0;
+    position: relative;
+    margin: 50px 0 100px 0;
+}
+.goal__bg {
+    position: absolute;
+    top: 47px;
+    left: 0px;
+    width: 35%;
+    height: 733px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background: rgba(99, 62, 185, 0.05);
+    z-index: -1;
+}
+.goal__content{
+    padding-left: 10px;
+}
+.goal__content__title{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    line-height: 140%;
+    color: var(--pragraph-color);
+    text-transform: capitalize;
+}
+.gola__paragraph{
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    line-height: 180%;
+    color: var(--pragraph-color);
+    padding: 24px 0 48px;
+}
+/* goal part css end */
+/* work part css start */
+#work{
+    padding: 80px 0;
+}
+.work__tabbar{
+    padding: 15px;
+    background: rgba(219, 204, 252, 0.2);
+    border-radius: 28px;
+    margin-bottom: 120px;
+}
+.work__tabbar ul li:last-child {
+    margin-right: 0;
+}
+.tabbar__items{
+    padding: 26px 63px;
+    margin-right: 40px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    line-height: 140%;
+    color: var(--primary-color);
+}
+.work__tabbar .active, .tabbar__items:hover{
+    color: #fff;
+    background: var(--primary-color);
+    cursor: pointer;
+}
+.work__title{
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--pragraph-color);
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+    line-height: 140%;
+}
+.work__paragrap{
+    font-size: 18px;
+    color: var(--pragraph-color);
+    font-weight: 400;
+    padding: 24px 0 48px 0;
+}
+/* work part css end */
+/* price part css start */
+#price{
+    padding: 120px 0 164px 0;
+}
+.price__heading{
+    text-align: center;
+    position: relative;
+}
+.price__title{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: var(--primary-front);
+    text-transform: capitalize;
+    color: var(--pragraph-color);
+    padding-bottom: 36px;
+}
+.price__heading span{
+    font-size: 28px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    color: var(--pragraph-color);
+    padding-top: 36px;
+}
+.price__monthly{
+    padding-right: 107px;
+}
+.price__btn{
+    bottom: 0;
+    left: 47%;
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+}
+.price__btn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 26px;
+    width: 26px;
+    margin: 7px;
+    border-radius: 50%;
+}
+.price__card{
+    padding: 48px 48px 60px 48px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 160px;
+    box-shadow: 0px 30px 60px rgb(162 169 192 / 10%);
+}
+.price__card:hover{
+    color: #fff;
+    background: #181059;
+    cursor: pointer;
+    margin-top: 80px;
+}
+.price__card:hover ul li{
+    color: #fff !important;
+}
+.price__card:hover .priccard__btn a{
+    background: var(--primary-color);
+    color: #fff;
+}
+.price__card__title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--primary-front);
+    line-height: 140%;
+    padding-bottom: 48px;
+}
+.price__content ul:last-child{
+    padding-left: 45px;
+}
+.price__content ul li{
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: #545A64;
+    padding-bottom: 28px;
+}
+.price__items li{
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+.priccard__btn{
+    margin-top: 40px;
+}
+.priccard__btn a {
+    background: rgba(132, 84, 245, 0.1);
+    color: var(--primary-color);
+}
+/* price part css end */
+/* blog part css start */
+#blog{
+    padding: 140px 0;
+}
+.blog__title{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color: var(--pragraph-color);
+    text-transform: capitalize;
+    padding-bottom: 90px;
+}
+.blog__content{
+    padding: 28px 0 0 25px;
+}
+.blog__text{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--pragraph-color);
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    width: 446px;
+}
+.blog__author{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    color: var(--pragraph-color);
+    line-height: 180%;
+}
+.blog__social i {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 24px;
+}
+.blog__social i:hover{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.blog__arrow{
+    margin-top: 56px;
+}
+.blog__arrow i{
+    width: 64px;
+    height: 64px;
+    background: #F3EEFE;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #130F26;
+    margin-right: 24px;
+}
+.blog__arrow i:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+/* blog part css end */
+/* contact part css start */
+#contact{
+    padding: 140px 0;
+}
+.contact__heading h2{
+    font-size: 56px;
+    font-family: var(--primary-font);
+    color: var(--pragraph-color);
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.contact__heading ul{
+   justify-content: center;
+   padding: 28px 0 48px 0;
+}
+.contact__heading ul li{
+    font-family: var(--secondary-font);
+    color: var(--pragraph-color);
+    font-size: 20px;
+    line-height: 180%;
+    padding: 0 15px;
+    position: relative;
+    text-transform: capitalize;
+}
+.contact__heading ul li::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 2px;
+    height: 17px;
+    background: var(--pragraph-color);
+}
+.contact__heading ul li:last-child::after{
+    background: transparent;
+}
+.contact__input{
+    padding: 24px;
+    width: 512px;
+    background: rgba(132, 84, 245, 0.05);
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    margin-right: 30px;
+}
+.contact__input::placeholder{
+    font-size: 18px;
+    color: var(--pragraph-color);
+    line-height: 200%;
+    font-family: var(--secondary-font);
+}
+/* contact part css end */
+/* footer part css start */
+#footer{
+    padding: 140px 0 168px 0;
+}
+.footer__text{
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    color: var(--pragraph-color);
+    line-height: 180%;
+    padding-top: 44px;
+}
+.footer__menu__title{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--pragraph-color);
+    padding-bottom: 48px;
+}
+.footer__menu ul li{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--pragraph-color);
+    padding-bottom: 30px;
+}
+.footer__menu ul li:hover {
+	color: var(--primary-color);
+}
+.footer__bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.footer__bar span{
+    padding-left: 0 !important;
+}
+.footer__link a, .footer__bar span{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: rgba(41, 49, 61, 0.9);
+    padding-left: 60px;
+}
+.footer__link a:first-child{
+    padding-left: 0;
+}
+.footer__link a:hover{
+    color: var(--primary-color);
+}
+/* footer part css end */

@@ -1,0 +1,575 @@
+
+/*  extra large device responsive */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .banner__heading {
+        font-size: 57px;
+    }
+    .banner__input__btn {
+        top: 31px;
+        right: 28px;
+    }
+    .service__pragraph {
+        font-size: 16px;
+        width: 100%;
+    }
+    .tabbar__items {
+        padding: 26px 40px;
+    }
+    .work__title {
+        font-size: 49px;
+    }
+    .goal__bg {
+        height: 600px;
+    }
+    .blog__content {
+        padding: 0 0 0 25px;
+    }
+    .blog__arrow {
+        margin-top: 30px;
+    }
+    .blog__text {
+        width: 100%;
+    }
+    .price__card {
+        padding: 30px 30px 60px 30px;
+    }
+    .price__content ul li {
+        font-size: 16px;
+    }
+}
+/*  large device responsive */
+@media (min-width: 992px) and (max-width: 1199px){
+    .nav-item {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .banner__heading {
+        font-size: 47px;
+    }
+    .banner__input {
+        width: 100%;
+    }
+    .banner__input__btn {
+        right: 15px;
+    }
+    .banner_img img {
+        margin-top: 0;
+    }
+    .service__title {
+        font-size: 40px;
+    }
+    .service__pragraph {
+        font-size: 16px;
+        width: 100%;
+    }
+    .goal__bg {
+        height: 630px;
+    }
+    .tabbar__items {
+        padding: 26px 40px;
+        font-size: 17px;
+        margin-right: 20px;
+    }
+    .work__title {
+        font-size: 48px;
+    }
+    .work__paragrap {
+        padding: 24px 0 30px 0;
+    }
+    .price__card {
+        padding: 30px 30px 40px 30px;
+    }
+    .price__content ul li {
+        font-size: 16px;
+    }
+    .price__content ul:last-child {
+        padding-left: 35px;
+    }
+    .blog__text {
+        font-size: 16px;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .blog__content {
+        padding: 0 0 0 25px;
+    }
+    .blog__arrow {
+        margin-top: 20px;
+    }
+    .footer__link a, .footer__bar span {
+        font-size: 17px;
+    }
+}
+/*  medium device responsive */
+@media (min-width: 768px) and (max-width: 991px){
+    /* navbar part */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        background-color: var(--primary-color);
+    }
+    .navbar-toggler i{
+        color: #ffff;
+    }
+    .navbar-collapse {
+        padding-bottom: 15px;
+    }
+    .bg-light{
+        background-color: #ffff !important;
+    }
+    .navbar .common__button {
+        text-align: center;
+    }
+    .navbar .nav_button button {
+        padding: 6px 28px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .nav-item i {
+        display: none;
+    }
+    .nav-item {
+        justify-content: center;
+    }
+    /* banner part  */
+    .banner__heading {
+        font-size: 60px;
+    }
+    .banner_img img {
+        margin-top: 0;
+    }
+    .banner__input__btn {
+        right: 80px;
+    }
+    /* goal part responsive */
+    #goal {
+        padding: 30px 0 30px 0;
+        margin: 0;
+    }
+    .goal__content__title {
+        font-size: 32px;
+    }
+    .gola__paragraph {
+        font-size: 14px;
+        padding: 10px 0 15px;
+    }
+    /* work part responsive */
+    .tabbar__items {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+    .work__title {
+        font-size: 32px;
+    }
+    .work__paragrap {
+        font-size: 14px;
+        padding: 10px 0 20px 0;
+    }
+    /* price part responsive */
+    #price {
+        padding: 50px 0 50px 0;
+    }
+    .price__content ul li {
+        font-size: 16px;
+    }
+    .price__card {
+        padding: 35px 35px 60px 35px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+    .price__card:hover{
+        margin-top: 30px;
+    }
+    /* blog part */
+    #blog {
+        padding: 100px 0;
+    }
+    .blog__title {
+        font-size: 49px;
+        padding-bottom: 50px;
+    }
+    .blog__content {
+        padding: 0;
+    }
+    .blog__text {
+        font-size: 15px;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .blog__arrow {
+        margin-top: 15px;
+    }
+    /* contact */
+    #contact {
+        padding: 40px 0;
+    }
+    .contact__heading h2 {
+        font-size: 43px;
+    }
+    .contact__input {
+        width: 470px;
+    }
+    .footer__link a, .footer__bar span {
+        padding-left: 25px;
+    }
+    .footer__link {
+        text-align: end;
+    }
+    .footer__text {
+        padding: 44px 0 40px 0;
+    }
+}
+/*  small device responsive */
+@media (min-width: 576px) and (max-width: 767px){
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        background-color: var(--primary-color);
+    }
+    .navbar-toggler i{
+        color: #ffff;
+    }
+    .navbar-collapse {
+        padding-bottom: 15px;
+    }
+    .bg-light{
+        background-color: #ffff !important;
+    }
+    .navbar .common__button {
+        text-align: center;
+    }
+    .navbar .nav_button button {
+        padding: 6px 28px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .nav-item i {
+        display: none;
+    }
+    .nav-item {
+        justify-content: center;
+    }
+    /* banner part responsive */
+    #banner_part {
+        padding: 120px 0 70px 0;
+    }
+    .banner__heading {
+        font-size: 46px;
+    }
+    .banner__pragraph {
+        font-size: 14px;
+        width: 100%;
+        text-align: start;
+    }
+    .banner_img img {
+        margin-top: 10px;
+    }
+    .banner__input {
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .banner__input::placeholder {
+        font-size: 14px;
+    }
+    .banner__input__btn {
+        top: 12px;
+        right: 10px;
+    }
+    /* logo part responsive */
+    #logo_part {
+        padding: 0;
+    }
+    /* service part */
+    #service {
+        padding: 30px 0;
+    }
+    .service__title {
+        font-size: 48px;
+    }
+    .service__pragraph {
+        width: 100%;
+        font-size: 14px;
+    }
+    .service__card__title h3 {
+        font-size: 22px;
+    }
+    .price__content ul:last-child {
+        padding-left: 10px;
+    }
+    /* goal part */
+    #goal {
+        margin: 0;
+    }
+    .goal__content__title {
+        font-size: 45px;
+    }
+    .gola__paragraph {
+        font-size: 16px;
+        padding: 24px 0 20px;
+    }
+    .service__card__text {
+        font-size: 14px;
+    }
+    .service__card__link {
+        font-size: 16px;
+    }
+    /* work part responsive */
+    .work__tabbar ul {
+        flex-wrap: wrap;
+    }
+    .tabbar__items {
+        padding: 20px 40px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .work__tabbar {
+        margin-bottom: 40px;
+    }
+    .work__title {
+        font-size: 48px;
+        padding-top: 30px;
+    }
+    .work__paragrap {
+        padding: 24px 0 20px 0;
+    }
+    /* price part css */
+    .price__title {
+        font-size: 45px;
+    }
+    .price__heading span {
+        font-size: 22px;
+    }
+    .price__btn {
+        bottom: -4px;
+        left: 44%;
+    }
+    .price__content ul li {
+        font-size: 14px;
+    }
+    .price__card {
+        padding: 15px 15px 30px 15px;
+        margin-top: 80px;
+    }
+    .price__card__title {
+        padding-bottom: 30px;
+    }
+    #price {
+        padding: 40px 0 0 0;
+    }
+    /* blog part  */
+    .blog__title {
+        font-size: 48px;
+    }
+    #blog {
+        padding: 40px 0;
+    }
+    .blog__text {
+        width: 100%;
+    }
+    /* contact part responsive */
+    #contact {
+        padding: 40px 0;
+    }
+    .contact__heading h2 {
+        font-size: 32px;
+    }
+    .contact__heading ul li {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact__heading ul li::after {
+        top: 5px;
+    }
+    .contact__input {
+        width: 299px;
+    }
+    /* footerbar */
+    #footer {
+        padding: 40px 0 68px 0;
+    }
+    .footer__bar {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer__link a, .footer__bar span {
+        font-size: 16px;
+    }
+    .footer__menu ul li {
+        font-size: 18px;
+    }
+}
+/* extra small device responsive */
+@media (max-width: 575px){
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        background-color: var(--primary-color);
+    }
+    .navbar-toggler i{
+        color: #ffff;
+    }
+    .navbar-collapse {
+        padding-bottom: 15px;
+    }
+    .bg-light{
+        background-color: #ffff !important;
+    }
+    .navbar .common__button {
+        text-align: center;
+    }
+    .navbar .nav_button button {
+        padding: 6px 28px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .common__button a {
+        font-size: 14px;
+        padding: 13px 22px;
+    }
+    .nav-item i {
+        display: none;
+    }
+    .nav-item {
+        justify-content: center;
+    }
+    /* banner part responsive */
+    #banner_part {
+        padding: 120px 0 70px 0;
+    }
+    .banner__heading {
+        font-size: 33px;
+    }
+    .banner__pragraph {
+        font-size: 14px;
+        width: 100%;
+        text-align: start;
+    }
+    .banner_img img {
+        margin-top: 10px;
+    }
+    .banner__input {
+        padding: 15px 10px;
+        width: 100%
+    }
+    .banner__input::placeholder {
+        font-size: 14px;
+    }
+    .banner__input__btn {
+        top: 12px;
+        right: 10px;
+    }
+    /* logo part responsive */
+    #logo_part {
+        padding: 0;
+    }
+    /* service part */
+    #service {
+        padding: 30px 0;
+    }
+    .service__title {
+        font-size: 32px;
+    }
+    .service__pragraph {
+        width: 100%;
+        font-size: 14px;
+    }
+    /* goal part */
+    #goal {
+        margin: 0;
+    }
+    .goal__content__title {
+        font-size: 32px;;
+    }
+    .gola__paragraph {
+        font-size: 14px;
+        padding: 24px 0 20px;
+    }
+    /* work part responsive */
+    .work__tabbar ul {
+        flex-wrap: wrap;
+    }
+    .tabbar__items {
+        padding: 15px 30px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .work__tabbar {
+        margin-bottom: 40px;
+    }
+    .work__title {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+    .work__paragrap {
+        padding: 24px 0 20px 0;
+    }
+    /* price part css */
+    .price__title {
+        font-size: 30px;
+    }
+    .price__heading span {
+        font-size: 22px;
+    }
+    .price__btn {
+        bottom: -4px;
+        left: 44%;
+    }
+    .price__content ul li {
+        font-size: 14px;
+    }
+    .price__card {
+        padding: 15px 15px 30px 15px;
+        margin-top: 80px;
+    }
+    #price {
+        padding: 40px 0 0 0;
+    }
+    /* blog part  */
+    .blog__title {
+        font-size: 32px;
+    }
+    #blog {
+        padding: 40px 0;
+    }
+    .blog__text {
+        font-size: 14px;
+        width: 100%;
+    }
+    /* contact part responsive */
+    #contact {
+        padding: 40px 0;
+    }
+    .contact__heading h2 {
+        font-size: 32px;
+    }
+    .contact__heading ul li {
+        font-size: 14px;
+        text-align: center;
+    }
+    .contact__heading ul li::after {
+        height: 30px;
+    }
+    .contact__input__area  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact__input__btn {
+        margin-top: 20px;
+    }
+    /* footerbar */
+    #footer {
+        padding: 40px 0 68px 0;
+    }
+    .footer__bar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__link a, .footer__bar span {
+        font-size: 16px;
+    }
+}
